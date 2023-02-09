@@ -2,12 +2,14 @@
 
 ### How to run project
 
-### 1. Install dependencies
+### 1. Get API KEY from OpenAI website
+
+### 2. Install dependencies
 
 ```zsh
 $ npm install
 ```
-### 2. Run the application
+### 3. Run the application
 ```zsh
 $ npm run dev
 ```
@@ -15,23 +17,22 @@ $ npm run dev
 ## My process
 
 ### Project Description
-This project is a notes application, in which the user has a text editor built with TipTap, with which he can create and store notes. Both the credentials and the user's note information are encrypted and stored in the LocalStorage. Debouncing was used to improve the performance of the app.
+This app makes use of the API offered by OpenAI to generate compliments and words of gratitude to people, places, pets or things. Developed with Next.js, TypeScript, ChakraUI and Formik. Dark mode is available through useModeColor hook to ChakraUI.
 
 ### Built with
 
-- React v18
+- Next.js
 - TypeScript
-- CSS Modules
-- Crypto.js
-- TipTap Text Editor
-- LocalStorage
-- Vite
+- ChakraUI
+- Yup
+- Formik
 
 ### Useful resources
-- React Docs: [Beta React Docs](https://beta.reactjs.org/)
-- Crypto.js: [documentation](https://cryptojs.gitbook.io/docs/)
-- TipTap: [documentation](https://tiptap.dev/)
-- Live Site URL: [Live](notes-ts-crypto.vercel.app)
+- Next.js: [Beta Next Docs](https://nextjs.org/docs/getting-started)
+- TypeScript: [documentation](https://www.typescriptlang.org/docs/handbook/jsx.html)
+- ChakraUI: [documentation](https://chakra-ui.com/)
+- Formik: [documentation](https://formik.org/)
+- Live Site URL: [Live](https://gpt-api-app-thoughts.vercel.app/)
 
 ## Author
 ### Fabio Alcocer Sejas
